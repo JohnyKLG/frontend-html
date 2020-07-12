@@ -1,0 +1,246 @@
+#top0{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:32px;
+    background:#f1f1f1;
+}
+#t00{
+    position:absolute;
+    top:5px;
+    left:31px;
+}
+#t00 button{
+    font-size:12px;
+    font-family:'Open Sans',sans-serif;
+    letter-spacing:0.24px;
+    color:#000000;
+    margin-right:50px;
+    padding:0;
+    border:0;
+    background:none;
+    outline:none;
+}
+#t00 button:hover{
+    font-weight:bold;
+    color:#5c5;
+    cursor:pointer;
+}
+#t00 button ico{
+    width:15px;
+    height:14px;
+    border:0;
+    margin-right:8px;
+    float: left;
+}
+#t00 #tel ico{
+    background-image:url("moovin.png");
+    background-position:-159px -28px;
+    background-repeat:no-repeat;
+}
+#t00 #wpp ico{
+    background-image:url("moovin.png");
+    background-position:-163px 0;
+    background-repeat:no-repeat;
+}
+#t01{
+    position:absolute;
+    top:5px;
+    right:40px;
+}
+#t01 a{
+    font-size:12px;
+    font-family:'Open Sans',sans-serif;
+    letter-spacing:0.22px;
+    color:#000000;
+    text-transform:uppercase;
+    text-decoration:none;
+    margin-left:50px;
+}
+#t01 a:hover{
+    text-decoration:underline;
+    color:#282;
+    cursor:pointer;
+}
+#top1{
+    position:absolute;
+    top:32px;
+    left:0px;
+    width:100%;
+    height:110px;
+    background:#ffffff;
+}
+#t10{
+    position:absolute;
+    top:0px;
+    left:40px;
+    width:calc(100% - 348px);
+}
+#t10 logo{
+    position:absolute;
+    top:30px;
+    left:0px;
+    width:139px;
+    height:50px;
+    border:0;
+    background-image:url("moovin.png");
+    background-position:0 0;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+#t10 form{
+    position:absolute;
+    top:30px;
+    left:235px;
+    width:calc(100% - 237px);
+    height:46px;
+    border:2px solid #dfdfdf;
+    border-radius:5px;
+}
+#t10 input[type=search]{
+    position:absolute;
+    top:3px;
+    left:15px;
+    width:calc(100% - 68px);
+    height:40px;
+    border:0;
+    outline:none;
+}
+#t10 input[type=submit]{
+    position:absolute;
+    top:17px;
+    right:22px;
+    width:13px;
+    height:12px;
+    border:0;
+    outline:none;
+    color:transparent;
+    background-image:url("moovin.png");
+    background-position:-165px -14px;
+    background-repeat:no-repeat;
+}
+#t10 input[type=submit]:hover{
+    filter:opacity(50%);
+    cursor:pointer;
+}
+#t11{
+    position:absolute;
+    top:0px;
+    right:40px;
+    width:250px;
+}
+#t11 nav{
+    position:absolute;
+    top:41px;
+    left:0px;
+    width: 220px;
+}
+#t11 nav button{
+    position:absolute;
+    top:0px;
+    left:60px;
+    width:100px;
+    height:28px;
+    padding:0;
+    border:0;
+    font-size:16px;
+    font-family:'Open Sans',sans-serif;
+    font-weight:600;
+    color:#000000;
+    background:none;
+    outline:none;
+}
+#t11 nav button s{
+    font:14px monospace;
+    font-weight:bold;
+    text-decoration:none;
+    writing-mode:vertical-rl;
+    margin:0 0 0 2px;
+}
+#t11 nav ul{
+    position:absolute;
+    top:15px;
+    right:0px;
+    width:140px;
+    background:#ffffff;
+    padding:20px 30px;
+    border:0;
+    border-radius:8px;
+    box-shadow: 0px 0px 6px #00000033;
+    text-align:center;
+    list-style:none;
+    display:none;
+}
+#t11 nav ul a{
+    text-decoration:none;
+    line-height:35px;
+    font-size:16px;
+    font-family:'Open Sans',sans-serif;
+    font-weight:600;
+    color:#000000;
+}
+#t11 nav ul a:hover{
+    font-size:17px;
+}
+#t11 #bag{
+    position:absolute;
+    top:41px;
+    right:8px;
+    padding:0;
+    border:0;
+    background:none;
+    outline:none;
+}
+#t11 #bag ico{
+    width:24px;
+    height:28px;
+    border:0;
+    float: left;
+    background-image:url("moovin.png");
+    background-position:-139px 0;
+    background-repeat:no-repeat;
+}
+#t11 #bag:hover{
+    filter:opacity(50%);
+    cursor:pointer;
+}
+#t11 #bag span{
+    position: absolute;
+    top:9px;
+    left:11px;
+    font:11px sans-serif;
+    background:#000000;
+    color:#ffffff;
+    padding:5px 1px;
+    border-radius:50%;
+    border:0;
+}
+/* Condições responsívas do layout - @JohnyKLG */
+@media screen and (max-width:895px){
+    #t00{left:0px;}
+    #t01{right:9px;}
+    #t10{left:9px;width:calc(100% - 286px);}
+    #t11{right:9px;}
+}
+@media screen and (max-width:805px){
+    #t00 button{margin-right:20px;}
+    #t01 a{margin-left:20px;}
+    #t10{width:calc(100% - 170px);}
+    #t10 form{left:165px;width:calc(100% - 167px);}
+    #t11{width:150px;}
+    #t11 nav{width: 150px;}
+    #t11 nav button{left:17px;}
+}
+@media screen and (max-width:705px){
+    #t00 button{margin-right:9px;}
+    #t01 a{margin-left:9px;}    
+    #t10, #t11{height:60px;}
+    #t10 logo, #t10 form{top:5px;}
+    #t11 nav, #t11 #bag{top:17px}
+}
+@media screen and (max-width:675px){
+    #t00 button{margin-right:20px;}
+    #t01 a{display:none;}
+    #t10 form{top:60px;left:0px;width:calc(100% + 148px);}
+}
