@@ -1,0 +1,2 @@
+- Adicionado container limitador para largura máxima de 1535px
+- CSS e JS compatíveis com Google Chrome, Opera, Firefox, Vivaldi, Yandex Browser, Microsoft IE e Microsoft Edge
