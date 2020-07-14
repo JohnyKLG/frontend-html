@@ -217,6 +217,9 @@
     border:0;
 }
 /* Condições responsívas do layout - @JohnyKLG */
+@media screen and (min-width:1535px){
+.cntr{position:absolute;left:50%;width:1535px;margin-left:-767.5px;}
+}
 @media screen and (max-width:895px){
     #t00{left:0px;}
     #t01{right:9px;}
